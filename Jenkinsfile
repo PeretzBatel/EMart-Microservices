@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any                            
 	
 	environment {
         clientRegistry = "repository.k8sengineers.com/apexrepo/client"
